@@ -16,6 +16,12 @@
     <div class="sidebar-heading">
         Features
     </div>
+    <li class="nav-item{{ request()->is('admin/posts') ? ' active' : ''}}">
+        <a class="nav-link" href="{{ route('posts.index') }}">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Posts</span>
+        </a>
+    </li>
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
             aria-expanded="true" aria-controls="collapseBootstrap">
