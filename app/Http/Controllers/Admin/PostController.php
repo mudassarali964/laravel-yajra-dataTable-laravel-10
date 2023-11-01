@@ -61,9 +61,6 @@ class PostController extends Controller
     private function applySearchFilter(QueryBuilder $query, Request $request): QueryBuilder
     {
         if ($request->has('status') && !is_null($request->status)) {
-            $query->whereHas('user', function ($q) use ($request) {
-                $q->where('is_active', $request->status);
-            });
             $query->where('posts.is_active', $request->status);
         }
         if ($request->has('from_date') && $request->has('to_date') &&
