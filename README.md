@@ -1,12 +1,12 @@
-# Free Laravel Admin Template ## 
+# Free Laravel Admin Template With Posts Yajra Table Example ## 
 
-![admin-panel-laravel-10](https://user-images.githubusercontent.com/55048197/223802834-09d5eb28-d121-466b-ada5-839ac7cb26fa.png)
+![laravel-yajra-dataTable-laravel-10](https://user-images.githubusercontent.com/55048197/223802834-09d5eb28-d121-466b-ada5-839ac7cb26fa.png)
 
 ## Installation
 
 ``` bash
 # clone the repo
-$ git clone https://github.com/mudassarali964/admin-panel-laravel-10.git my-project
+$ git clone https://github.com/mudassarali964/laravel-yajra-dataTable-laravel-10.git my-project
 
 # go into app's directory
 $ cd my-project
